@@ -148,7 +148,7 @@ resource "azurerm_virtual_machine" "myterraformvm" {
         disable_password_authentication = true
         ssh_keys {
             path     = "/home/dxccnaadmin/.ssh/authorized_keys"
-            key_data = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQ+0xqb9Oo4TTtrIVH22MVpIAPOiiT+nNaTs1ADbJi32DomeE5qHi0lKcuLC7CB/oIlgoDMPSOQvYEQ+wmJiD9tSeHo3m5MybtSFC8oKHdviwoGk437XLHg0abRjJnocjFpc3QNnczsCSA/I/7JHCHuEBqpgiK584l9MXgvuGi385zJ6GhDltki9QqvQBQZhr7SAqOYDu9lr6vxLwDMz0C8sacVoTCuBvORUrpUhFF1GZnEBNb3Jdj14OfEfJVjRD4yEpr8JSZsjNrIU9FP4KrD7Q9R99C4d6AuY9veZfeOFwbhINRP2nwgtI8fwiXGqaim3TukvMjgjPfaTvuG5ML"
+            key_data = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCwOLBHXm+ftykA0x09T+Dpsz+iydvgpm9ClEpsNjqWqAGGzP0FW8UcdnJbbbuWO7/voEy9Yv5wLesECfCYHcY8J21sn+r7NoDtx4aEiclFUgUK6bb2c5GmGKGVYZSDFiMK66+tpeLYXBeTszNBI0/GAW6f0y/jCtB6mapD7HvKC8dv8ErP5zSyAbMxXLwTlD8IaqJvBvDz2nSU78xaGxgCvkpXaYvLkl0waNPvRXri5L68q9g/V7PyvN++9wd5gr+22Qr6jnZcbcU5vfsg3jEiBcKTHt5lNqOs/vEC3G77C3J+iHERaE8578UOnLqp40hnNqDygHxQBeB+P3i7/Lyr"
         }
     }
 
