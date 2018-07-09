@@ -141,7 +141,7 @@ resource "azurerm_virtual_machine" "myterraformvm" {
 
     os_profile {
         computer_name  = "myvm"
-        admin_username = "dxccnaadmin/"
+        admin_username = "dxccnaadmin"
     }
 
     os_profile_linux_config {
