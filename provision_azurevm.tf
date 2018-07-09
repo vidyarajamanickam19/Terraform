@@ -148,7 +148,7 @@ resource "azurerm_virtual_machine" "myterraformvm" {
         disable_password_authentication = true
         ssh_keys {
             path     = "/home/dxccnaadmin/.ssh/authorized_keys"
-            key_data = "ssh-rsa AAAAB3Nz{snip}hwhqT9h"
+            key_data = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCifO8aNrgX0TCqmIzqQUmySO9QTtqkiJd1Rjygf7p+JxcqVmHEr8ShtATgIa/SnlVkd5/GauayiSZOm41ZF2ZsIK/DJtbB2cLt5Fmt7v2RQzyyJMFPOdWfytIW937aWcrHN7J+/kU1A4+tydy3jvZuc6/7fvGyA/tdbj/BSxzkJBBA3mqVI3ma2isgun2ALLIzRWvQ75AeWNZfUCUI8+HBZ7RRK+f9ZMzYfIb7GUpM+8ffa9ZIK9xxwF4nqjpkNDzEK5fID37v1sDjht/j1cb2Ey33zwLahlwbOCKmeiqkuCJKy0M4U9WuL22NIeLLAjgf3WbtdjIyxvfG9DpSMrml"
         }
     }
 
