@@ -141,14 +141,14 @@ resource "azurerm_virtual_machine" "myterraformvm" {
 
     os_profile {
         computer_name  = "myvm"
-        admin_username = "azureuser"
+        admin_username = "dxccnaadmin/"
     }
 
     os_profile_linux_config {
         disable_password_authentication = true
         ssh_keys {
-            path     = "/home/azureuser/.ssh/authorized_keys"
-            key_data = "ssh-rsa AAAAB3Nz{snip}hwhqT9h"
+            path     = "/home/dxccnaadmin/.ssh/authorized_keys"
+            key_data = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQ+0xqb9Oo4TTtrIVH22MVpIAPOiiT+nNaTs1ADbJi32DomeE5qHi0lKcuLC7CB/oIlgoDMPSOQvYEQ+wmJiD9tSeHo3m5MybtSFC8oKHdviwoGk437XLHg0abRjJnocjFpc3QNnczsCSA/I/7JHCHuEBqpgiK584l9MXgvuGi385zJ6GhDltki9QqvQBQZhr7SAqOYDu9lr6vxLwDMz0C8sacVoTCuBvORUrpUhFF1GZnEBNb3Jdj14OfEfJVjRD4yEpr8JSZsjNrIU9FP4KrD7Q9R99C4d6AuY9veZfeOFwbhINRP2nwgtI8fwiXGqaim3TukvMjgjPfaTvuG5ML"
         }
     }
 
