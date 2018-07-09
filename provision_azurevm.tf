@@ -5,8 +5,8 @@ variable "resourcename" {
 # Configure the Microsoft Azure Provider
 provider "azurerm" {
     subscription_id = "ff2ac935-150c-4854-8cb5-044cf21d224c"
-    client_id       = "7f87b936-7406-441c-b475-59191369f5ef"
-    client_secret   = "VXBAs+g+cQAvBxYUHPkQguxeF1opzw5W6h+JVM+Ngrg="
+    client_id       = "68ee6abb-6614-45b8-b1a2-3c9291b4eba9"
+    client_secret   = "748cd0ae-21f4-485e-848d-9e0064f788a0"
     tenant_id       = "105b2061-b669-4b31-92ac-24d304d195dc"
 }
 
